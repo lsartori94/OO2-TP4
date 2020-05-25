@@ -25,6 +25,7 @@ VoortheesAdapterTest >> tearDown [
 	biblioteca:= nil.
 	arya:= nil.
 	tyron:= nil.
+	super tearDown.
 ]
 
 { #category : #test }

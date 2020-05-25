@@ -1,5 +1,5 @@
 Class {
-	#name : #NeoJSONAdapterTest,
+	#name : #STONAdapterTest,
 	#superclass : #TestCase,
 	#instVars : [
 		'biblioteca',
@@ -10,18 +10,18 @@ Class {
 }
 
 { #category : #running }
-NeoJSONAdapterTest >> setUp [
+STONAdapterTest >> setUp [
 	"Hooks that subclasses may override to define the fixture of test."
 	|adapter|
 	super setUp.
-	adapter:= NeoJSONAdapter new: (NeoJSONWriter).
+	adapter:= STONAdapter new: STON.
 	biblioteca:= Biblioteca new: adapter.
 	arya:= Socio nombre:'Arya Stark' email:'needle@stark.com' legajo: '5234/5'.
 	tyron:= Socio nombre:'Tyron Lannister' email:'tyron@thelannisters.com' legajo:'2345/2'.
 ]
 
 { #category : #running }
-NeoJSONAdapterTest >> tearDown [
+STONAdapterTest >> tearDown [
 	biblioteca:= nil.
 	arya:= nil.
 	tyron:= nil.
@@ -29,18 +29,18 @@ NeoJSONAdapterTest >> tearDown [
 ]
 
 { #category : #test }
-NeoJSONAdapterTest >> testExport [
-|result expected|
-	expected:= '[
-	{
-		"legajo" : "5234/5",
-		"email" : "needle@stark.com",
-		"nombre" : "Arya Stark"
+STONAdapterTest >> testExport [
+	|result expected|
+	expected:= 'OrderedCollection [
+	Socio {
+		#nombre : ''Arya Stark'',
+		#email : ''needle@stark.com'',
+		#legajo : ''5234/5''
 	},
-	{
-		"legajo" : "2345/2",
-		"email" : "tyron@thelannisters.com",
-		"nombre" : "Tyron Lannister"
+	Socio {
+		#nombre : ''Tyron Lannister'',
+		#email : ''tyron@thelannisters.com'',
+		#legajo : ''2345/2''
 	}
 ]'.
 	biblioteca agregarSocio: arya.
