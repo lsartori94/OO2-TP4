@@ -7,27 +7,11 @@ Class {
 	#category : #Biblioteca
 }
 
-{ #category : #'instance creation' }
-NeoJSONAdapter class >> new: anExporter [
-
-	^self new initialize: anExporter
-]
-
-{ #category : #accessing }
-NeoJSONAdapter >> adaptee: anAdaptee [
-	adaptee:= anAdaptee.
-]
-
 { #category : #exporting }
 NeoJSONAdapter >> export: anArray [
 	|processed|
 	processed:= self process: anArray.
 	^adaptee toStringPretty: processed.
-]
-
-{ #category : #initialization }
-NeoJSONAdapter >> initialize: anExporter [
-	adaptee:= anExporter.
 ]
 
 { #category : #processing }
