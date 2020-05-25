@@ -1,9 +1,6 @@
 Class {
 	#name : #NeoJSONAdapter,
 	#superclass : #Exporter,
-	#instVars : [
-		'adaptee'
-	],
 	#category : #Biblioteca
 }
 
