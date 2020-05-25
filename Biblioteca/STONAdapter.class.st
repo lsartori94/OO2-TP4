@@ -1,9 +1,6 @@
 Class {
 	#name : #STONAdapter,
 	#superclass : #Exporter,
-	#instVars : [
-		'adaptee'
-	],
 	#category : #Biblioteca
 }
 

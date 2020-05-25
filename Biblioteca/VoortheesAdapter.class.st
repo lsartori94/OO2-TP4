@@ -1,9 +1,6 @@
 Class {
 	#name : #VoortheesAdapter,
 	#superclass : #Exporter,
-	#instVars : [
-		'adaptee'
-	],
 	#category : #Biblioteca
 }
 
