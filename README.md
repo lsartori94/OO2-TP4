@@ -1,16 +1,18 @@
-## Trabajo Práctico 4 de la materia OO2
+## Trabajo Práctico 4 y 5 de la materia OO2
 En este repositorio se encuentra todo el proyecto que incluye los paquetes de cada ejercicio respectivamente.
 
 ## Tabla de contenido
 - [Información del alumno](#informacion-del-alumno)
 - [Respuestas de los ejercicios](#respuestas-de-los-ejercicios)
-    * [Ejercicio 1](#ejercicio-1)
-    * [Ejercicio 2](#ejercicio-2)
-    * [Ejercicio 3](#ejercicio-3)
-    * [Ejercicio 4](#ejercicio-4)
-    * [Ejercicio 5](#ejercicio-5)
-    * [Ejercicio 6](#ejercicio-6)
-  
+     * [TP 4 Ejercicio 1](#tp-4-ejercicio-1)
+     * [TP 4 Ejercicio 2](#tp-4-ejercicio-2)
+     * [TP 4 Ejercicio 3](#tp-4-ejercicio-3)
+     * [TP 4 Ejercicio 4](#tp-4-ejercicio-4)
+     * [TP 4 Ejercicio 5](#tp-4-ejercicio-5)
+     * [TP 4 Ejercicio 6](#tp-4-ejercicio-6)
+	 * [TP 5 Ejercicio 1](#tp-5-ejercicio-1)
+	 * [TP 5 Ejercicio 2](#tp-5-ejercicio-2)
+	 * [TP 5 Ejercicio 3](#tp-5-ejercicio-3)
   
 
 ## Información del alumno
@@ -19,7 +21,7 @@ Luca Sartori `15625/0`
 ## Respuestas de los ejercicios
 A continuacion se encuentran listados los ejercicios y sus correspondientes preguntas / carpetas de resolucion
 
-### Ejercicio 1
+### TP 4 Ejercicio 1
 #### Resolucion de código
 El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (paquetes):
 
@@ -28,7 +30,7 @@ El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (
 #### Respuesta 5.a
 El UML se encuentra en formato PDF [en una carpeta en mi Drive de Google](https://drive.google.com/file/d/1mcrS3qjIvlBk6UGt-kYVS7a1yrJa9AhC/view?usp=sharing)
 
-### Ejercicio 2
+### TP 4 Ejercicio 2
 #### Respuesta 1.a
 En la Clase `Magnitude`, en la categoría `comparing`, el mensaje `Magnitude>>=` es un ejemplo de la aplicación del patron `Template Method` ya que el mismo representa una operacion la cual tiene una serie de pasos (en este caso delega totalmente la implementacion), los cuales delegan el cálculo a otro mensaje que puede ser implementado por una subclase.
 ```
@@ -141,13 +143,41 @@ printOn: stream base: base
 ```
 *Aclaración: Si bien en LargeInteger se ve presente el mismo patron con el mensaje printOn y sus subclases LargeNegativeInteger y LargePositiveInteger, los ejemplos no fueron incluidos por el largo de las implementaciones de código*
 
-### Ejercicio 3
+### TP 4 Ejercicio 3
 El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (paquetes):
 
 - [Modelos](/Topografia)
 - [Tests](/Topografia-Tests)
-### Ejercicio 4
 
-### Ejercicio 5
+### TP 4 Ejercicio 4
+El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (paquetes):
 
-### Ejercicio 6
+- [Modelos](/O2-FileSystem)
+- [Tests](/O2-FileSystem-Tests)
+
+### TP 4 Ejercicio 5
+El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (paquetes):
+
+- [Modelos](/O2-Sueldos)
+- [Tests](/O2-Sueldos-Tests)
+
+### TP 4 Ejercicio 6
+TBD
+
+### TP 5 Ejercicio 1
+El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (paquetes):
+
+- [Modelos](/O2-ToDo)
+- [Tests](/O2-ToDo-Tests)
+
+### TP 5 Ejercicio 2
+El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (paquetes):
+
+- [Modelos](/O2-Encriptador)
+- [Tests](/O2-Encriptador-Tests)
+
+### TP 5 Ejercicio 3
+El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (paquetes):
+
+- [Modelos](/O2-DispotivoMovil)
+- [Tests](/O2-DispotivoMovil-Tests)
