@@ -28,7 +28,7 @@ El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (
 - [Modelos](/Biblioteca)
 - [Tests](/Biblioteca-Tests)
 #### Respuesta 5.a
-El UML se encuentra en formato PDF [en una carpeta en mi Drive de Google](https://drive.google.com/file/d/1mcrS3qjIvlBk6UGt-kYVS7a1yrJa9AhC/view?usp=sharing)
+El UML se encuentra en formato PDF [en una carpeta en mi Drive de Google](https://drive.google.com/file/d/1i72fX7A7IRlAgr0Pe7PKT342dgV1cKgj/view?usp=sharing)
 
 ### TP 4 Ejercicio 2
 #### Respuesta 1.a
