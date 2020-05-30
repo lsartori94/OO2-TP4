@@ -142,7 +142,10 @@ printOn: stream base: base
 *Aclaración: Si bien en LargeInteger se ve presente el mismo patron con el mensaje printOn y sus subclases LargeNegativeInteger y LargePositiveInteger, los ejemplos no fueron incluidos por el largo de las implementaciones de código*
 
 ### Ejercicio 3
+El codigo correspondiente al ejercicio se encuentra en las siguientes carpetas (paquetes):
 
+- [Modelos](/Topografia)
+- [Tests](/Topografia-Tests)
 ### Ejercicio 4
 
 ### Ejercicio 5
